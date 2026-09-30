@@ -1,0 +1,25 @@
+.app {
+  width: 500px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+textarea {
+  height: 150px;
+  padding: 10px;
+}
+
+select {
+  padding: 8px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
